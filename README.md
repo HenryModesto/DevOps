@@ -2,7 +2,11 @@
 
 ### OBJETIVO
 
-Este repositório tem como objetivo centralizar e organizar as entregas das atividades relacionadas à disciplina de DevOps
+Este repositório tem como objetivo centralizar e organizar as entregas das atividades relacionadas à disciplina de DevOps.
+
+
+### TEMA
+
 
 ### DOWNLOAD DO PROJETO
 
