@@ -78,7 +78,7 @@ E aperte a tecla `Enter`
     </td>
     <td align="center">
       <a href="https://github.com/GabryelVenancio" title="Github Gabryel Venancio">
-        <img src="pictures/IGOR.jpeg" width="150px;" alt="Foto de Gabryel Venancio Cleffs do Nascimento"/><br>
+        <img src="Pictures/Cleffs.jpeg" width="150px;" alt="Foto de Gabryel Venancio Cleffs do Nascimento"/><br>
         <sub>
           <b>Gabryel Venancio</b>
         </sub>
@@ -86,7 +86,7 @@ E aperte a tecla `Enter`
     </td>
     <td align="center">
       <a href="https://github.com/AndreyT1224" title="Github Andrey">
-        <img src="pictures/ALINE.jpeg" width="150px;" alt="Foto de Andrey Tomaz Silva Alves "/><br>
+        <img src="Pictures/Andrey.jpeg" width="150px;" alt="Foto de Andrey Tomaz Silva Alves "/><br>
         <sub>
           <b>Andrey Tomaz</b>
         </sub>
@@ -94,7 +94,7 @@ E aperte a tecla `Enter`
     </td>
     <td align="center">
       <a href="https://github.com/Biiaiiab" title="Github Beatriz">
-        <img src="pictures/LEONARDO.jpeg" width="150px;" alt="Foto Beatriz do Carmo Alves"/><br>
+        <img src="Pictures/Bia.jpeg" width="150px;" alt="Foto Beatriz do Carmo Alves"/><br>
         <sub>
           <b>Beatriz do Carmo</b>
         </sub>
@@ -102,7 +102,7 @@ E aperte a tecla `Enter`
     </td>
      <td align="center">
       <a href="https://github.com/JanainaFi" title="Github Janaina">
-        <img src="pictures/LEONARDO.jpeg" width="150px;" alt="Foto Janaina da Silva Figueiredo"/><br>
+        <img src="Pictures/Jana.jpeg" width="150px;" alt="Foto Janaina da Silva Figueiredo"/><br>
         <sub>
           <b>Janaina da Silva</b>
           <b> 
