@@ -69,7 +69,7 @@ E aperte a tecla `Enter`
   <tr>
     <td align="center">
       <a href="https://github.com/HenryModesto" title="Github Henry">
-        <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Henry Oliveira Modesto De Jesus"/><br>
+        <img src="Pictures/Henry.jpeg" width="150px;" heigth="200px;" alt="Foto de Henry Oliveira Modesto De Jesus"/><br>
         <sub>
           <b>Henry</b>
           <b>RA: 2401244 </b>
