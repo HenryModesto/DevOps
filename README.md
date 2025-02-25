@@ -76,6 +76,7 @@ E aperte a tecla `Enter`
         <img src="Pictures/HENRYZ.jfif" width="150px;" heigth="200px;" alt="Foto de Henry Oliveira Modesto De Jesus"/><br>
         <sub>
           <b>HENRY MODESTO</b>
+          <b>2401244</b>
         </sub>
       </a>
     </td>
@@ -84,6 +85,7 @@ E aperte a tecla `Enter`
         <img src="Pictures/Cleffs.jpeg" width="150px;" alt="Foto de Gabryel Venancio Cleffs do Nascimento"/><br>
         <sub>
           <b>GABRYEL VENANCIO</b>
+          <b>2302495</b>
         </sub>
       </a>
     </td>
