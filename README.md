@@ -73,45 +73,45 @@ E aperte a tecla `Enter`
   <tr>
     <td align="center">
       <a href="https://github.com/HenryModesto" title="Github Henry">
-        <img src="Pictures/HENRYZ.jfif" width="150px;" heigth="200px;" alt="Foto de Henry Oliveira Modesto De Jesus"/><br>
+        <img src="Pictures/HENRYZ.jfif" width="180px;" heigth="200px;" alt="Foto de Henry Oliveira Modesto De Jesus"/><br>
         <sub>
-          <b>HENRY MODESTO</b>
+          <b>HENRY MODESTO</b><br>
           <b>2401244</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/GabryelVenancio" title="Github Gabryel Venancio">
-        <img src="Pictures/Cleffs.jpeg" width="150px;" alt="Foto de Gabryel Venancio Cleffs do Nascimento"/><br>
+        <img src="Pictures/Cleffs.jpeg" width="180px;" alt="Foto de Gabryel Venancio Cleffs do Nascimento"/><br>
         <sub>
-          <b>GABRYEL VENANCIO</b>
+          <b>GABRYEL VENANCIO</b><br>
           <b>2302495</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/AndreyT1224" title="Github Andrey">
-        <img src="Pictures/ANDREW.jpeg" width="150px;" alt="Foto de Andrey Tomaz Silva Alves "/><br>
+        <img src="Pictures/ANDREW.jpeg" width="172px;" alt="Foto de Andrey Tomaz Silva Alves "/><br>
         <sub>
-          <b>ANDREY TOMAZ</b>
+          <b>ANDREY TOMAZ</b><br>
           <b>2400729</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/Biiaiiab" title="Github Beatriz">
-        <img src="Pictures/Bia.jpeg" width="150px;" alt="Foto Beatriz do Carmo Alves"/><br>
+        <img src="Pictures/Bia.jpeg" width="160px;" alt="Foto Beatriz do Carmo Alves"/><br>
         <sub>
-          <b>BEATRIZ ALVES</b>
+          <b>BEATRIZ ALVES</b><br>
           <b>2401121</b>
         </sub>
       </a>
     </td>
      <td align="center">
       <a href="https://github.com/JanainaFi" title="Github Janaina">
-        <img src="Pictures/Jana.jpeg" width="150px;" alt="Foto Janaina da Silva Figueiredo"/><br>
+        <img src="Pictures/Jana.jpeg" width="160px;" alt="Foto Janaina da Silva Figueiredo"/><br>
         <sub>
-          <b>JANAINA FIGUEIREDO</b>
+          <b>JANAINA FIGUEIREDO</b><br>
           <b>2400683</b>
         </sub>
       </a>
