@@ -122,4 +122,15 @@ E aperte a tecla `Enter`
 
 #
 ### TECNOLOGIAS
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=yellow&labelColor=0D1117)&nbsp;
+![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=white&labelColor=0D1117)&nbsp;
+![HTML](https://img.shields.io/badge/HTML-0D1117?style=for-the-badge&logo=html5&logoColor=red&labelColor=0D1117)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=yellow&labelColor=0D1117)
+![CSS](https://img.shields.io/badge/CSS-0D1117?style=for-the-badge&logo=css3&logoColor=blue&labelColor=0D1117)
 
+### FERRAMENTAS
+
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=Git&logoColor=white&labelColor=0D1117)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&labelColor=0D1117)&nbsp;
+![Trello](https://img.shields.io/badge/Trello-0D1117?style=for-the-badge&logo=Trello&logoColor=white&labelColor=0D1117)&nbsp;
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual%20studio%20code&logoColor=white&labelColor=0D1117)
