@@ -25,11 +25,12 @@ body {
 .login-container {
     width: 100%;
     max-width: 400px;
-    background: white;
+    backdrop-filter: blur(10px);
     border-radius: 10px;
     box-shadow: var(--shadow);
     overflow: hidden;
     transition: transform 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.4); 
 }
 
 .login-container:hover {
@@ -37,7 +38,7 @@ body {
 }
 
 .login-header {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    background:  #792ea8;
     color: white;
     padding: 1.5rem;
     text-align: center;
@@ -62,12 +63,14 @@ body {
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
     font-weight: 500;
+    color: white;
+    text-transform: uppercase;
 }
 
 .form-group input {
     width: 100%;
     padding: 0.8rem 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     font-size: 1rem;
     transition: all 0.3s;
@@ -85,8 +88,9 @@ body {
 
 .login-btn {
     width: 100%;
+    height: 50px;
     padding: 0.8rem;
-    background: var(--primary);
+    background: #792ea8;
     color: white;
     border: none;
     border-radius: 5px;
@@ -94,7 +98,9 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s;
+    border: 2px solid rgba(255, 255, 255, 0.4);
 }
+
 
 .login-btn:hover {
     background: var(--secondary);
@@ -104,11 +110,11 @@ body {
     text-align: center;
     margin-top: 1rem;
     font-size: 0.9rem;
-    color: #666;
+    color: #ffffff;
 }
 
 .form-footer a {
-    color: var(--primary);
+    color: #e6c8f9;
     text-decoration: none;
 }
 
@@ -116,7 +122,6 @@ body {
     text-decoration: underline;
 }
 
-/* Efeito de onda no botão */
 @keyframes wave {
     0% { transform: scale(1); }
     50% { transform: scale(1.05); }
