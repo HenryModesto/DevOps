@@ -4,13 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Memória</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="/static/login.css">
+    <script src="/static/script.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Jogo da Memória</h1>
-        <h2> Henry Modesto | Andrey Tomaz <br> 2A - SI</h2>
-        <button onclick="window.location.href='/game'" id="botao">Iniciar Jogo</button>
+
+    <!-- Tela de Login -->
+    <div class="login-container" id="loginScreen">
+        <div class="login-header">
+            <h1>Acessar game</h1>
+        </div>
+        <form class="login-form" id="loginForm">
+            <div class="form-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+            </div>
+            <button type="submit" class="login-btn pulse" id="loginBtn">Entrar</button>
+            <div class="form-footer">
+                <p>Não tem acesso? <a href="#" id="requestAccess">Solicite aqui</a></p>
+            </div>
+        </form>
     </div>
+
+    <!-- Tela Inicial do Jogo -->
+    <div class="container" id="gameStartScreen" style="display: none;">
+        <h1>Jogo da Memória</h1>
+        <button onclick="startGame()" id="botao">Iniciar Jogo</button>
+    </div>
+
+    <!-- Jogo da Memória -->
+    <div class="container" id="gameScreen" style="display: none;">
+        <h1>Encontre os Pares!</h1>
+        <form method="POST" id="game-form">
+            <div class="cartas-grid">
+                {% for carta in cartas %}
+                    <button type="submit" name="indice" value="{{ loop.index0 }}" 
+                            class="{% if carta.virada %}flip{% endif %}">
+                        {% if carta.virada %}
+                            {{ carta.simbolo }}
+                        {% else %}
+                            ?
+                        {% endif %}
+                    </button>
+                {% endfor %}
+            </div>
+        </form>
+    </div>
+
+    <!-- Tela de Vitória -->
+    <div class="container" id="winnerScreen" style="display: none;">
+        <h1>Parabéns, todos os pares foram concluídos</h1>
+        <button onclick="window.location.href='/'" id="botao">Voltar ao Início</button>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const loginBtn = document.getElementById('loginBtn');
+
+            if(username && password) {
+                loginBtn.textContent = 'Acessando...';
+                loginBtn.style.backgroundColor = '#4cc9f0';
+                setTimeout(() => {
+                    document.getElementById('loginScreen').style.display = 'none';
+                    document.getElementById('gameStartScreen').style.display = 'block';
+                }, 1500);
+            } else {
+                loginBtn.textContent = 'Preencha todos os campos';
+                loginBtn.style.backgroundColor = '#f72585';
+                setTimeout(() => {
+                    loginBtn.textContent = 'Entrar';
+                    loginBtn.style.backgroundColor = '#4361ee';
+                }, 2000);
+            }
+        });
+
+        function startGame() {
+            document.getElementById('gameStartScreen').style.display = 'none';
+            document.getElementById('gameScreen').style.display = 'block';
+        }
+    </script>
+
 </body>
 </html>
