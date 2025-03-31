@@ -25,7 +25,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
 document.getElementById('requestAccess').addEventListener('click', function(e) {
     e.preventDefault();
-    alert('Envie um e-mail para admin@calculadora.com para solicitar acesso.');
+    alert('Envie um e-mail para admin@memoria.com para solicitar acesso.');
 });
 
 document.addEventListener('DOMContentLoaded', function() {
