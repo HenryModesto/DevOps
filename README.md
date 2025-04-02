@@ -5,7 +5,10 @@
 Este repositório tem como objetivo centralizar e organizar as entregas das atividades relacionadas à disciplina de DevOps.
 
 
-### TEMA
+### SOBRE O PROJETO
+
+Este projeto consiste em um jogo da memória, utilizando um sistema de login para autenticação de usuários. O objetivo é aplicar boas práticas de desenvolvimento de software e utilizar metodologias ágeis, com versionamento e colaboração via GitHub e Trello. 
+O sistema foi construído com Python e Flask, garantindo uma estrutura simples e eficiente para comunicação entre frontend e backend. Além disso, a interface foi projetada para proporcionar uma experiência intuitiva e dinâmica para o jogador.
 
 
 ### DOWNLOAD DO PROJETO
