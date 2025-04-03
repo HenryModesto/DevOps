@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from models import JogoMemoria, CartaVirada, CartaNormal
 
-
 app = Flask(__name__)
 jogo = JogoMemoria()  
 
@@ -32,8 +31,7 @@ def desvirar():
 
 @app.route('/vitoria')
 def vitoria():
-    return render_template('./winner.html')
-   
+    return render_template('winner.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
