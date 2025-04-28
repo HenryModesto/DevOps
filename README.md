@@ -105,6 +105,15 @@ https://docs.docker.com/desktop/setup/install/windows-install/
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/mauricio003" title="Github Mauricio">
+        <img src="Pictures/Mauricio.jpeg" width="160px;" alt="Foto Mauricio Costa"/><br>
+        <sub>
+          <b>MAURICIO COSTA</b><br>
+          <b>2400487</b>
+        </sub>
+      </a>
+    </td>
     
   </tr>
 </table>
